@@ -1,3 +1,57 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  padding: 10px 12px;
+  height: fit-content;
+}
+
+body {
+  width: 255px;
+  padding: 8px 10px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-family: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+
+option {
+  font-weight: inherit;
+}
+
+#im-ex {
+  font-size: 16px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  button {
+    padding: 4px;
+  }
 }

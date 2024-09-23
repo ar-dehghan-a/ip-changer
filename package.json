@@ -1,43 +1,40 @@
 {
-  "name": "rechex",
-  "version": "2.1.1",
-  "description": "REact CHrome EXtension typescript template",
+  "name": "ip-changer",
+  "version": "1.0.0",
+  "description": "A Chrome extension for quickly changing your browser's IP address with a simple interface.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-dehghan-a/ip-changer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ar-dehghan-a/ip-changer/issues"
+  },
+  "homepage": "https://github.com/ar-dehghan-a/ip-changer#readme",
+  "author": "Alireza Dehghan Ashkezari",
+  "license": "MIT",
   "scripts": {
     "dev": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
     "format": "prettier --write --ignore-unknown \"{public,src,webpack}/**/*.{css,js,mjs,jsx,ts,mts,tsx,json}\""
   },
-  "keywords": [
-    "chrome",
-    "extension",
-    "react",
-    "webpack"
-  ],
-  "author": "Alireza Dehghan Ashkezari",
-  "license": "MIT",
   "devDependencies": {
     "@types/chrome": "^0.0.206",
-    "@types/react": "^18.3.3",
+    "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
-    "@types/sass-loader": "~8.0.9",
-    "autoprefixer": "^10.4.20",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.11.0",
     "dotenv": "^16.4.5",
     "glob": "^10.4.5",
     "html-webpack-plugin": "^5.6.0",
-    "mini-css-extract-plugin": "^2.9.0",
-    "postcss": "^8.4.41",
-    "postcss-loader": "^8.1.1",
+    "mini-css-extract-plugin": "^2.9.1",
     "prettier": "2.8.1",
-    "sass": "^1.77.8",
-    "sass-loader": "^13.3.3",
+    "sass": "^1.79.3",
+    "sass-loader": "^16.0.2",
     "style-loader": "^3.3.4",
-    "tailwindcss": "^3.4.9",
     "terser-webpack-plugin": "^5.3.10",
     "ts-loader": "^9.5.1",
     "typescript": "^4.9.5",
-    "webpack": "^5.93.0",
+    "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^5.10.0"
   },
